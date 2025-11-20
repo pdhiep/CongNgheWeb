@@ -1,0 +1,2 @@
+Câu hỏi: Trong thực tế, việc hard-code tài khoản “pdhiep”/“123456” trong file handle_login.php có nguy cơ bảo mật gì? Nên thay thế bằng cách nào tốt hơn?
+
