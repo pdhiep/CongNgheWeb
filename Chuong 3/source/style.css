@@ -1,0 +1,9 @@
+
+html,body{height:100%;margin:0}
+body{display:flex;align-items:center;justify-content:center;font-family:Arial,Helvetica,sans-serif;background:#f5f7fb;color:#0b1720}
+.center-wrap{width:320px;background:#ffffff;padding:18px;border-radius:8px;box-shadow:0 6px 18px rgba(11,23,36,0.08);text-align:left}
+.center-wrap h2,h1{text-align:center;margin:0 0 12px}
+label{display:block;margin-top:8px;color:#334155}
+input{width:100%;padding:10px;margin-top:6px;border:1px solid #e2e8f0;border-radius:6px}
+button,.btn{display:inline-block;width:100%;padding:10px;margin-top:12px;border-radius:6px;border:none;background:#2563eb;color:#fff;cursor:pointer;text-decoration:none;text-align:center}
+button:hover,.btn:hover{opacity:0.95}
