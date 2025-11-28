@@ -1,0 +1,2 @@
+Khi thêm sinh viên thành công, bạn dùng header('Location: chapter4.php') để chuyển hướng.
+Nếu người dùng bấm F5 (refresh) ngay sau đó thì chuyện gì sẽ xảy ra và làm sao để tránh hoàn toàn tình trạng dữ liệu bị thêm lại 2 lần
