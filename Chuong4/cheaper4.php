@@ -12,7 +12,6 @@ try {
     die("Kết nối thất bại: " . $e->getMessage());
 }
 
-// XỬ LÝ THÊM SINH VIÊN
 if (isset($_POST['ten_sinh_vien']) && isset($_POST['email'])) {
     $ten   = trim($_POST['ten_sinh_vien']);
     $email = trim($_POST['email']);
@@ -22,13 +21,10 @@ if (isset($_POST['ten_sinh_vien']) && isset($_POST['email'])) {
         $stmt = $pdo->prepare($sql);
         $stmt->execute([$ten, $email]);
 
-        // Quan trọng: chuyển hướng để load lại dữ liệu mới nhất
         header('Location: cheaper4.php?success=1');
         exit;
     }
 }
-
-// LUÔN chạy SELECT ở đây (sau khi có thể đã thêm mới)
     $sql_select = "SELECT * FROM sinhvien ORDER BY id ASC";
     $stmt_select = $pdo->query($sql_select);
     $rows = $stmt_select->fetchAll(PDO::FETCH_ASSOC);
