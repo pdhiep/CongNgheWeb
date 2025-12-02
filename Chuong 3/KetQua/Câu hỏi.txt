@@ -1,2 +1,11 @@
-Câu hỏi: Trong thực tế, việc hard-code tài khoản “pdhiep”/“123456” trong file handle_login.php có nguy cơ bảo mật gì? Nên thay thế bằng cách nào tốt hơn?
+AIzaSyBhGFqTCrac0Q4SXPptznpuARUKZI90OLI
+Cửa sổ 1 (Chạy Backend):
 
+Gõ: cd Desktop\GenAI_Map (Nhấn Enter)
+
+Gõ: py server.py (Nhấn Enter)
+
+
+Gõ: cd Desktop\GenAI_Map (Nhấn Enter)
+
+Gõ: py -m streamlit run app.py (Nhấn Enter)

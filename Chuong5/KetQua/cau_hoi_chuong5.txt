@@ -1,0 +1,1 @@
+Tại sao trong mô hình MVC, View (sinhvien_view.php) không được phép chứa câu lệnh SQL (SELECT, INSERT) hay kết nối CSDL trực tiếp?
